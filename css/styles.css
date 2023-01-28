@@ -6,6 +6,8 @@
   --secondary-color: #757575;
   --dark-background-color: #2f303a;
   --grey-backgroud-color: #f5f4fa;
+  --active-color: #2196f3;
+  --icons-color: #afb1b8;
 }
 
 body {
@@ -80,7 +82,7 @@ body {
  .navi-part:hover,
  .navi-part:focus,
  .navi-part:active {
- color: #2196f3
+  color: var(--active-color);
 }
 .navi-contact {
   color: var(--secondary-color);
@@ -95,14 +97,14 @@ body {
   padding-left: 50px;
   padding-right: 0;
 }
-.navi-contact-part:focus,
-.navi-contact-part:hover,
-.navi-contact-part:active  {
-  color: #2196f3;
+.navi-contact-part:focus *,
+.navi-contact-part:hover *,
+.navi-contact-part:active * {
+  color: var(--active-color);
   fill: var(--active-color);
 }
 .navi-icon {
-  color: #2196f3;
+  fill: var(--secondary-color);
   margin-right: 10px;
 }
 .section-main {
