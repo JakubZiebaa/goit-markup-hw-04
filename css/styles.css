@@ -81,11 +81,14 @@ body {
  .navi-part:active {
  color: #2196f3
 }
-
 .navi-contact {
   color: var(--secondary-color);
   display: flex;
   margin-left: auto;
+}
+.nav-icon {
+  fill: var(--secondary-color);
+  margin-right: 10px;
 }
 .navi-contact-part {
   display: flex;
@@ -101,7 +104,17 @@ body {
 }
 .section-main {
   background-color: #2F303A; 
-  padding: 10em 0
+  padding: 10em 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(47, 48, 58, 0.4) 0%,
+    rgba(47, 48, 58, 0.4) 50%
+  ),
+  url(../images/background.jpg);
+max-width: 1600px;
+background-size: auto;
+background-position-x: 50%;
+margin: auto;
 }
 .container-section-main {
   display: flex;
