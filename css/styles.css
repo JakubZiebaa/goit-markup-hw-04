@@ -73,6 +73,11 @@ body {
   margin-left: 93px;
   padding: 0;
  }
+
+ .navi-link {
+  text-decoration: none;
+  color: inherit;
+ }
  
 .navi-part {
  list-style: none;
@@ -93,14 +98,13 @@ body {
 .navi-contact-part {
   display: flex;
   list-style: none;
-  font-size: 14px;
   padding-left: 50px;
   padding-right: 0;
 }
 .navi-contact-part:focus *,
 .navi-contact-part:hover *,
 .navi-contact-part:active * {
-  color: var(--active-color);
+  color: #2196f3;
   fill: var(--active-color);
 }
 .navi-icon {
