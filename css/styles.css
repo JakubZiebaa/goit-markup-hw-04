@@ -86,10 +86,7 @@ body {
   display: flex;
   margin-left: auto;
 }
-.nav-icon {
-  fill: var(--secondary-color);
-  margin-right: 10px;
-}
+
 .navi-contact-part {
   display: flex;
   list-style: none;
@@ -97,10 +94,15 @@ body {
   padding-left: 50px;
   padding-right: 0;
 }
-.navi-contact-part:focus,
-.navi-contact-part:hover,
-.navi-contact-part:active {
+.navi-contact-part:focus *,
+.navi-contact-part:hover *,
+.navi-contact-part:active * {
   color: #2196f3;
+  fill: var(--active-color);
+}
+.navi-icon {
+  fill: var(--secondary-color);
+  margin-right: 10px;
 }
 .section-main {
   background-color: #2F303A; 
@@ -154,6 +156,13 @@ margin: auto;
 .topic{
   list-style: none;
 } 
+.icon{
+  background-color: var(--grey-backgroud-color);
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+}
 
 .topic-name {
   font-weight: 700;
@@ -199,8 +208,34 @@ margin: auto;
   list-style: none;
   display: flex;
   justify-content: space-between;
-  
 }
+.social-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  list-style-type: none;
+  margin-top: 16px;
+  }
+  .social-links-part {
+    display: flex;
+    align-items: center;
+  }
+  .social-link{
+    fill: var(--icons-color);
+    border-radius: 50%;
+    padding: 12px;
+  }
+  .social-link:hover,
+  .social-link:active,
+  .social-link:focus {
+    fill: #ffffff;
+    background-color: var(--active-color);
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
 .container-card{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -226,6 +261,40 @@ margin: auto;
   letter-spacing: 0.03em;
   text-align: center;
   padding-top: 10px;
+}
+.clients-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+}
+.clients-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-icon {
+  display: flex;
+  align-items: center;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  padding: 16px 32px;
+  fill: var(--icons-color);
+}
+
+.clients-link:hover,
+.clients-link:focus,
+.clients-link:active {
+  border-color: var(--active-color);
+  fill: var(--active-color);
 }
 
 .footer{
