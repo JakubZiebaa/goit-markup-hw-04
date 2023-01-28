@@ -104,7 +104,7 @@ body {
 .navi-contact-part:focus *,
 .navi-contact-part:hover *,
 .navi-contact-part:active * {
-  color: #2196f3;
+  color: var(--active-color);
   fill: var(--active-color);
 }
 .navi-icon {
@@ -303,6 +303,7 @@ margin: auto;
   border-color: var(--active-color);
   fill: var(--active-color);
 }
+
 
 .footer{
   background-color: #2F303A;
