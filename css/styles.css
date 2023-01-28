@@ -71,6 +71,7 @@ body {
   margin-left: 93px;
   padding: 0;
  }
+ 
 .navi-part {
  list-style: none;
  font-size: 14px;
@@ -94,14 +95,14 @@ body {
   padding-left: 50px;
   padding-right: 0;
 }
-.navi-contact-part:focus *,
-.navi-contact-part:hover *,
-.navi-contact-part:active * {
+.navi-contact-part:focus,
+.navi-contact-part:hover,
+.navi-contact-part:active  {
   color: #2196f3;
   fill: var(--active-color);
 }
 .navi-icon {
-  fill: var(--secondary-color);
+  color: #2196f3;
   margin-right: 10px;
 }
 .section-main {
