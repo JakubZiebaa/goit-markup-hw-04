@@ -425,14 +425,6 @@ margin: auto;
   
 }
 
-.list-images{
-  list-style: none;
-  border: 1px solid #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
-  margin-block-start: 0;
-  
-}
-
 .list-item{
   margin-right: 12px;
   
@@ -495,7 +487,7 @@ margin: auto;
   line-height: 2; 
   letter-spacing: 0.06em;
   padding-bottom: 4px;
-  
+  display: flex;
 }
 
 .list-images-text {
