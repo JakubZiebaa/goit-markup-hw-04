@@ -258,6 +258,7 @@ margin: auto;
 }
 .container-description{
   padding: 30px 0;
+  background-color: #ffffff;
 }
 
 .container-name{
@@ -465,7 +466,8 @@ margin: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px
+  padding-bottom: 94px;
+  cursor: pointer;
 }
 
 .list-images {
